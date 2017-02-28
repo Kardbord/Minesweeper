@@ -40,6 +40,8 @@
 **/.idea/modules.xml
 **/.idea/vcs.xml
 **/.idea/dictionaries
+**/.idea/copyright
+**/.idea/inspectionProfiles
 
 #ignore thumbnails created by windows
 **/Thumbs.db
