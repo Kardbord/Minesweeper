@@ -33,6 +33,13 @@
 =======
 #ignore .idea
 **/.idea/tasks.xml
+**/.idea/artifacts
+**/.idea/compiler.xml
+**/.idea/uiDesigner.xml
+**/.idea/misc.xml
+**/.idea/modules.xml
+**/.idea/vcs.xml
+**/.idea/dictionaries
 
 #ignore thumbnails created by windows
 **/Thumbs.db
