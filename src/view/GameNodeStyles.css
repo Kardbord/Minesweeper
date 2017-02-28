@@ -1,0 +1,30 @@
+/*noinspection CssUnusedSymbol*/
+.button {
+    -fx-background-color: lightblue;
+    -fx-border-radius: 0;
+    -fx-border-width: 0.75;
+    -fx-border-color: black;
+}
+
+/*noinspection CssUnusedSymbol*/
+.button:disabled {
+    -fx-opacity: 1;
+    -fx-background-color: lightgrey;
+}
+
+/*noinspection CssUnusedSymbol*/
+.button:hover {
+    -fx-background-color: aqua;
+}
+
+#bomb-button:disabled {
+    -fx-background-color: red;
+}
+
+#marked-bomb-button:disabled {
+    -fx-background-color: green;
+}
+
+#marked-safe-button:disabled {
+    -fx-background-color: yellow;
+}

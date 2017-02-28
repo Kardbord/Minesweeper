@@ -1,0 +1,2712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e19c3f4-7c6c-4a6b-a87b-8bbcb4d56169" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    </list>
+    <ignored path="Kvarfordt-Tanner-Assn8.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Kvarfordt-Tanner-Assn8$Start.coverage" NAME="Start Coverage Results" MODIFIED="1480141750475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>view.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Kvarfordt-Tanner-Assn8" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/control/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;field#gameBoard#0;class#Controller#0" expanded="false" />
+                <element signature="docComment;field#scoreBoard#0;class#Controller#0" expanded="false" />
+                <element signature="docComment;field#start#0;class#Controller#0" expanded="false" />
+                <element signature="docComment;method#updatePossibleBombs#0;class#Controller#0" expanded="false" />
+                <element signature="method#updatePossibleBombs#0;class#Controller#0" expanded="false" />
+                <element signature="docComment;method#checkForWin#0;class#Controller#0" expanded="false" />
+                <element signature="method#checkForWin#0;class#Controller#0" expanded="false" />
+                <element signature="docComment;method#endGame#0;class#Controller#0" expanded="false" />
+                <element signature="method#endGame#0;class#Controller#0" expanded="false" />
+                <element signature="docComment;method#setGameBoard#0;class#Controller#0" expanded="false" />
+                <element signature="e#2779#2780#0" expanded="false" />
+                <element signature="e#2821#2822#0" expanded="false" />
+                <element signature="docComment;method#setScoreBoard#0;class#Controller#0" expanded="false" />
+                <element signature="e#3001#3002#0" expanded="false" />
+                <element signature="e#3045#3046#0" expanded="false" />
+                <element signature="docComment;method#setStart#0;class#Controller#0" expanded="false" />
+                <element signature="e#3223#3224#0" expanded="false" />
+                <element signature="e#3257#3258#0" expanded="false" />
+                <element signature="docComment;method#Controller#0;class#Controller#0" expanded="false" />
+                <element signature="method#Controller#0;class#Controller#0" expanded="false" />
+                <element signature="docComment;method#restartGame#0;class#Controller#0" expanded="false" />
+                <element signature="method#restartGame#0;class#Controller#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameBoard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/GameBoard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1496">
+              <caret line="101" column="62" lean-forward="false" selection-start-line="101" selection-start-column="62" selection-end-line="101" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;field#controller#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;field#disabledGameNodes#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;field#isClickable#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;field#gridSizeX#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;field#gridSizeY#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;field#percentBombs#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;field#numBombs#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;field#possibleBombs#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;field#virtualGrid#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;field#bombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;method#makeRows#0;class#GameBoard#0" expanded="false" />
+                <element signature="method#makeRows#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+                <element signature="method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;method#getGridSizeX#0;class#GameBoard#0" expanded="false" />
+                <element signature="e#7321#7322#0" expanded="false" />
+                <element signature="e#7353#7354#0" expanded="false" />
+                <element signature="docComment;method#getGridSizeY#0;class#GameBoard#0" expanded="false" />
+                <element signature="e#7482#7483#0" expanded="false" />
+                <element signature="e#7514#7515#0" expanded="false" />
+                <element signature="docComment;method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+                <element signature="method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+                <element signature="method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;method#getPercentBombs#0;class#GameBoard#0" expanded="false" />
+                <element signature="e#9693#9694#0" expanded="false" />
+                <element signature="e#9728#9729#0" expanded="false" />
+                <element signature="docComment;method#isClickable#0;class#GameBoard#0" expanded="false" />
+                <element signature="e#9871#9872#0" expanded="false" />
+                <element signature="e#9905#9906#0" expanded="false" />
+                <element signature="docComment;method#getNumBombs#0;class#GameBoard#0" expanded="false" />
+                <element signature="e#10043#10044#0" expanded="false" />
+                <element signature="e#10074#10075#0" expanded="false" />
+                <element signature="docComment;method#getPossibleBombs#0;class#GameBoard#0" expanded="false" />
+                <element signature="e#10249#10250#0" expanded="false" />
+                <element signature="e#10285#10286#0" expanded="false" />
+                <element signature="docComment;method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+                <element signature="method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+                <element signature="class#10609:11421" expanded="false" />
+                <element signature="method#handle#0;class#10609:11421" expanded="false" />
+                <element signature="class#11513:12416" expanded="false" />
+                <element signature="method#handle#0;class#11513:12416" expanded="false" />
+                <element signature="docComment;method#markNode#0;class#GameBoard#0" expanded="false" />
+                <element signature="method#markNode#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;method#setClickable#0;class#GameBoard#0" expanded="false" />
+                <element signature="e#13408#13409#0" expanded="false" />
+                <element signature="e#13454#13455#0" expanded="false" />
+                <element signature="docComment;method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+                <element signature="method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+                <element signature="method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;method#getDisabledGameNodes#0;class#GameBoard#0" expanded="false" />
+                <element signature="e#15296#15297#0" expanded="false" />
+                <element signature="e#15336#15337#0" expanded="false" />
+                <element signature="docComment;method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+                <element signature="method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+                <element signature="docComment;method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+                <element signature="method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cell.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/Cell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding>
+                <element signature="docComment;field#row#0;class#Cell#0" expanded="false" />
+                <element signature="docComment;field#col#0;class#Cell#0" expanded="false" />
+                <element signature="docComment;field#isBomb#0;class#Cell#0" expanded="false" />
+                <element signature="docComment;field#neighboringBombs#0;class#Cell#0" expanded="false" />
+                <element signature="docComment;method#Cell#0;class#Cell#0" expanded="false" />
+                <element signature="method#Cell#0;class#Cell#0" expanded="false" />
+                <element signature="docComment;method#setRow#0;class#Cell#0" expanded="false" />
+                <element signature="docComment;method#setCol#0;class#Cell#0" expanded="false" />
+                <element signature="docComment;method#setGridCoords#0;class#Cell#0" expanded="false" />
+                <element signature="method#setGridCoords#0;class#Cell#0" expanded="false" />
+                <element signature="docComment;method#getRow#0;class#Cell#0" expanded="false" />
+                <element signature="docComment;method#getCol#0;class#Cell#0" expanded="false" />
+                <element signature="docComment;method#incNeighboringBombs#0;class#Cell#0" expanded="false" />
+                <element signature="docComment;method#isBomb#0;class#Cell#0" expanded="false" />
+                <element signature="docComment;method#getNeighboringBombs#0;class#Cell#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Start.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/Start.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              <folding>
+                <element signature="docComment;field#controller#0;class#Start#0" expanded="false" />
+                <element signature="docComment;field#gameBoard#0;class#Start#0" expanded="false" />
+                <element signature="docComment;field#scoreBoard#0;class#Start#0" expanded="false" />
+                <element signature="docComment;field#mainPane#0;class#Start#0" expanded="false" />
+                <element signature="docComment;method#Start#0;class#Start#0" expanded="false" />
+                <element signature="method#Start#0;class#Start#0" expanded="false" />
+                <element signature="docComment;method#start#0;class#Start#0" expanded="false" />
+                <element signature="e#1153#1188#0" expanded="false" />
+                <element signature="class#1590:2065" expanded="false" />
+                <element signature="method#handle#0;class#1590:2065" expanded="false" />
+                <element signature="docComment;method#setScoreBoard#0;class#Start#0" expanded="false" />
+                <element signature="method#setScoreBoard#0;class#Start#0" expanded="false" />
+                <element signature="docComment;method#setGameBoard#0;class#Start#0" expanded="false" />
+                <element signature="method#setGameBoard#0;class#Start#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScoreBoard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/ScoreBoard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1254">
+              <caret line="143" column="29" lean-forward="false" selection-start-line="143" selection-start-column="29" selection-end-line="143" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;field#controller#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="docComment;field#time#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="docComment;field#bombsLeft#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="docComment;field#startBtn#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="docComment;field#timerBottom#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="docComment;field#bombsLeftLabel#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="docComment;field#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="docComment;method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="docComment;method#getTime#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="e#3075#3076#0" expanded="false" />
+                <element signature="e#3102#3103#0" expanded="false" />
+                <element signature="docComment;method#setStartBtnAction#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="e#3268#3269#0" expanded="false" />
+                <element signature="e#3307#3308#0" expanded="false" />
+                <element signature="docComment;method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="docComment;method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="docComment;method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="e#3949#3950#0" expanded="false" />
+                <element signature="e#4028#4029#0" expanded="false" />
+                <element signature="docComment;method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="docComment;method#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="e#4297#4298#0" expanded="false" />
+                <element signature="e#4334#4335#0" expanded="false" />
+                <element signature="docComment;method#setStartBtnDisable#0;class#ScoreBoard#0" expanded="false" />
+                <element signature="e#4569#4570#0" expanded="false" />
+                <element signature="e#4615#4616#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameNodeStyles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/GameNodeStyles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding>
+                <element signature="e#41#164#0" expanded="false" />
+                <element signature="e#216#276#0" expanded="false" />
+                <element signature="e#325#360#0" expanded="false" />
+                <element signature="e#384#418#0" expanded="false" />
+                <element signature="e#449#485#0" expanded="false" />
+                <element signature="e#516#553#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/GameBoard.java" />
+        <option value="$PROJECT_DIR$/src/ScoreArea.java" />
+        <option value="$PROJECT_DIR$/src/view/MinesweeperishStyles.css" />
+        <option value="$PROJECT_DIR$/src/view/GameBoardStyles.css" />
+        <option value="$PROJECT_DIR$/src/control/Control.java" />
+        <option value="$PROJECT_DIR$/src/view/ScoreArea.java" />
+        <option value="$PROJECT_DIR$/src/view/GameNode.java" />
+        <option value="$PROJECT_DIR$/src/view/GameNodeStyles.css" />
+        <option value="$PROJECT_DIR$/src/control/Controller.java" />
+        <option value="$PROJECT_DIR$/src/view/ScoreBoard.java" />
+        <option value="$PROJECT_DIR$/readMe/readme.txt" />
+        <option value="$PROJECT_DIR$/src/view/Cell.java" />
+        <option value="$PROJECT_DIR$/src/view/Start.java" />
+        <option value="$PROJECT_DIR$/src/view/GameBoard.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Accessibility</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>unused</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kvarfordt-Tanner-Assn8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kvarfordt-Tanner-Assn8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kvarfordt-Tanner-Assn8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kvarfordt-Tanner-Assn8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kvarfordt-Tanner-Assn8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kvarfordt-Tanner-Assn8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kvarfordt-Tanner-Assn8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kvarfordt-Tanner-Assn8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="readMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15546875" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="view" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Start">
+    <configuration default="false" name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="view.Start" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Kvarfordt-Tanner-Assn8" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Kvarfordt-Tanner-Assn8" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Start" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Start" />
+      </list>
+    </recent_temporary>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e19c3f4-7c6c-4a6b-a87b-8bbcb4d56169" name="Default" comment="" />
+      <created>1479607314561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1479607314561</updated>
+      <workItem from="1479607317873" duration="6207000" />
+      <workItem from="1479667496820" duration="102000" />
+      <workItem from="1479668361145" duration="1682000" />
+      <workItem from="1479674226651" duration="22000" />
+      <workItem from="1479745559691" duration="477000" />
+      <workItem from="1479766876965" duration="11120000" />
+      <workItem from="1479938964095" duration="9553000" />
+      <workItem from="1479966937936" duration="5794000" />
+      <workItem from="1480009821084" duration="197000" />
+      <workItem from="1480039219687" duration="5393000" />
+      <workItem from="1480055269216" duration="2389000" />
+      <workItem from="1480057693499" duration="15000" />
+      <workItem from="1480104514834" duration="12460000" />
+      <workItem from="1480123405300" duration="6641000" />
+      <workItem from="1480130087128" duration="38000" />
+      <workItem from="1480137356698" duration="6014000" />
+      <workItem from="1480143445681" duration="2683000" />
+      <workItem from="1480204023063" duration="2785000" />
+      <workItem from="1480208776156" duration="4970000" />
+      <workItem from="1480222715886" duration="149000" />
+      <workItem from="1480364851557" duration="1443000" />
+      <workItem from="1480538057326" duration="837000" />
+      <workItem from="1480710718650" duration="149000" />
+      <workItem from="1480720428030" duration="58000" />
+      <workItem from="1480728188465" duration="500000" />
+      <workItem from="1480728957759" duration="291000" />
+      <workItem from="1481236786035" duration="35000" />
+      <workItem from="1481237473653" duration="20000" />
+      <workItem from="1481237527652" duration="1327000" />
+      <workItem from="1481238940625" duration="12000" />
+      <workItem from="1481238999107" duration="152000" />
+      <workItem from="1481683528646" duration="409000" />
+      <workItem from="1487287908698" duration="54000" />
+      <workItem from="1488309074151" duration="543000" />
+      <workItem from="1488309644000" duration="778000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="85299000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2056928" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18689582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/view/ScoreBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#time#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#startBtn#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerBottom#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeftLabel#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#getTime#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3075#3076#0" expanded="false" />
+            <element signature="e#3102#3103#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnAction#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3268#3269#0" expanded="false" />
+            <element signature="e#3307#3308#0" expanded="false" />
+            <element signature="docComment;method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3949#3950#0" expanded="false" />
+            <element signature="e#4028#4029#0" expanded="false" />
+            <element signature="docComment;method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4297#4298#0" expanded="false" />
+            <element signature="e#4334#4335#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnDisable#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4569#4570#0" expanded="false" />
+            <element signature="e#4615#4616#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="docComment;field#row#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#col#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#neighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#incNeighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getNeighboringBombs#0;class#Cell#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="59" lean-forward="false" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#gameBoard#0;class#Controller#0" expanded="false" />
+            <element signature="docComment;field#scoreBoard#0;class#Controller#0" expanded="false" />
+            <element signature="docComment;field#start#0;class#Controller#0" expanded="false" />
+            <element signature="docComment;method#updatePossibleBombs#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePossibleBombs#0;class#Controller#0" expanded="false" />
+            <element signature="docComment;method#checkForWin#0;class#Controller#0" expanded="false" />
+            <element signature="method#checkForWin#0;class#Controller#0" expanded="false" />
+            <element signature="docComment;method#endGame#0;class#Controller#0" expanded="false" />
+            <element signature="method#endGame#0;class#Controller#0" expanded="false" />
+            <element signature="docComment;method#setGameBoard#0;class#Controller#0" expanded="false" />
+            <element signature="e#2779#2780#0" expanded="false" />
+            <element signature="e#2821#2822#0" expanded="false" />
+            <element signature="docComment;method#setScoreBoard#0;class#Controller#0" expanded="false" />
+            <element signature="e#3001#3002#0" expanded="false" />
+            <element signature="e#3045#3046#0" expanded="false" />
+            <element signature="docComment;method#setStart#0;class#Controller#0" expanded="false" />
+            <element signature="e#3223#3224#0" expanded="false" />
+            <element signature="e#3257#3258#0" expanded="false" />
+            <element signature="docComment;method#Controller#0;class#Controller#0" expanded="false" />
+            <element signature="method#Controller#0;class#Controller#0" expanded="false" />
+            <element signature="docComment;method#restartGame#0;class#Controller#0" expanded="false" />
+            <element signature="method#restartGame#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameNodeStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="33" column="92" lean-forward="false" selection-start-line="33" selection-start-column="92" selection-end-line="33" selection-end-column="92" />
+          <folding>
+            <element signature="docComment;field#controller#0;class#Start#0" expanded="false" />
+            <element signature="docComment;field#gameBoard#0;class#Start#0" expanded="false" />
+            <element signature="docComment;field#scoreBoard#0;class#Start#0" expanded="false" />
+            <element signature="docComment;field#mainPane#0;class#Start#0" expanded="false" />
+            <element signature="docComment;method#Start#0;class#Start#0" expanded="false" />
+            <element signature="method#Start#0;class#Start#0" expanded="false" />
+            <element signature="docComment;method#start#0;class#Start#0" expanded="false" />
+            <element signature="e#1153#1188#0" expanded="false" />
+            <element signature="class#1590:2065" expanded="false" />
+            <element signature="method#handle#0;class#1590:2065" expanded="false" />
+            <element signature="docComment;method#setScoreBoard#0;class#Start#0" expanded="false" />
+            <element signature="method#setScoreBoard#0;class#Start#0" expanded="false" />
+            <element signature="docComment;method#setGameBoard#0;class#Start#0" expanded="false" />
+            <element signature="method#setGameBoard#0;class#Start#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#disabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#percentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#numBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#possibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#virtualGrid#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7321#7322#0" expanded="false" />
+            <element signature="e#7353#7354#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7482#7483#0" expanded="false" />
+            <element signature="e#7514#7515#0" expanded="false" />
+            <element signature="docComment;method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getPercentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9693#9694#0" expanded="false" />
+            <element signature="e#9728#9729#0" expanded="false" />
+            <element signature="docComment;method#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9871#9872#0" expanded="false" />
+            <element signature="e#9905#9906#0" expanded="false" />
+            <element signature="docComment;method#getNumBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10043#10044#0" expanded="false" />
+            <element signature="e#10074#10075#0" expanded="false" />
+            <element signature="docComment;method#getPossibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10249#10250#0" expanded="false" />
+            <element signature="e#10285#10286#0" expanded="false" />
+            <element signature="docComment;method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="class#10609:11421" expanded="false" />
+            <element signature="method#handle#0;class#10609:11421" expanded="false" />
+            <element signature="class#11513:12416" expanded="false" />
+            <element signature="method#handle#0;class#11513:12416" expanded="false" />
+            <element signature="docComment;method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#13408#13409#0" expanded="false" />
+            <element signature="e#13454#13455#0" expanded="false" />
+            <element signature="docComment;method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getDisabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#15296#15297#0" expanded="false" />
+            <element signature="e#15336#15337#0" expanded="false" />
+            <element signature="docComment;method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameNodeStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2134">
+          <caret line="114" column="78" lean-forward="false" selection-start-line="114" selection-start-column="78" selection-end-line="114" selection-end-column="78" />
+          <folding>
+            <element signature="docComment;field#row#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#col#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#neighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#incNeighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getNeighboringBombs#0;class#Cell#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="33" column="92" lean-forward="false" selection-start-line="33" selection-start-column="92" selection-end-line="33" selection-end-column="92" />
+          <folding>
+            <element signature="docComment;field#controller#0;class#Start#0" expanded="false" />
+            <element signature="docComment;field#gameBoard#0;class#Start#0" expanded="false" />
+            <element signature="docComment;field#scoreBoard#0;class#Start#0" expanded="false" />
+            <element signature="docComment;field#mainPane#0;class#Start#0" expanded="false" />
+            <element signature="docComment;method#Start#0;class#Start#0" expanded="false" />
+            <element signature="method#Start#0;class#Start#0" expanded="false" />
+            <element signature="docComment;method#start#0;class#Start#0" expanded="false" />
+            <element signature="e#1153#1188#0" expanded="false" />
+            <element signature="class#1590:2065" expanded="false" />
+            <element signature="method#handle#0;class#1590:2065" expanded="false" />
+            <element signature="docComment;method#setScoreBoard#0;class#Start#0" expanded="false" />
+            <element signature="method#setScoreBoard#0;class#Start#0" expanded="false" />
+            <element signature="docComment;method#setGameBoard#0;class#Start#0" expanded="false" />
+            <element signature="method#setGameBoard#0;class#Start#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4224">
+          <caret line="196" column="58" lean-forward="false" selection-start-line="196" selection-start-column="58" selection-end-line="196" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#disabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#percentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#numBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#possibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#virtualGrid#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7321#7322#0" expanded="false" />
+            <element signature="e#7353#7354#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7482#7483#0" expanded="false" />
+            <element signature="e#7514#7515#0" expanded="false" />
+            <element signature="docComment;method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getPercentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9693#9694#0" expanded="false" />
+            <element signature="e#9728#9729#0" expanded="false" />
+            <element signature="docComment;method#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9871#9872#0" expanded="false" />
+            <element signature="e#9905#9906#0" expanded="false" />
+            <element signature="docComment;method#getNumBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10043#10044#0" expanded="false" />
+            <element signature="e#10074#10075#0" expanded="false" />
+            <element signature="docComment;method#getPossibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10249#10250#0" expanded="false" />
+            <element signature="e#10285#10286#0" expanded="false" />
+            <element signature="docComment;method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="class#10609:11421" expanded="false" />
+            <element signature="method#handle#0;class#10609:11421" expanded="false" />
+            <element signature="class#11513:12416" expanded="false" />
+            <element signature="method#handle#0;class#11513:12416" expanded="false" />
+            <element signature="docComment;method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#13408#13409#0" expanded="false" />
+            <element signature="e#13454#13455#0" expanded="false" />
+            <element signature="docComment;method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getDisabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#15296#15297#0" expanded="false" />
+            <element signature="e#15336#15337#0" expanded="false" />
+            <element signature="docComment;method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameNodeStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;field#row#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#col#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#neighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#incNeighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getNeighboringBombs#0;class#Cell#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+          <folding>
+            <element signature="docComment;field#controller#0;class#Start#0" expanded="false" />
+            <element signature="docComment;field#gameBoard#0;class#Start#0" expanded="false" />
+            <element signature="docComment;field#scoreBoard#0;class#Start#0" expanded="false" />
+            <element signature="docComment;field#mainPane#0;class#Start#0" expanded="false" />
+            <element signature="docComment;method#Start#0;class#Start#0" expanded="false" />
+            <element signature="method#Start#0;class#Start#0" expanded="false" />
+            <element signature="docComment;method#start#0;class#Start#0" expanded="false" />
+            <element signature="e#1153#1188#0" expanded="false" />
+            <element signature="class#1590:2065" expanded="false" />
+            <element signature="method#handle#0;class#1590:2065" expanded="false" />
+            <element signature="docComment;method#setScoreBoard#0;class#Start#0" expanded="false" />
+            <element signature="method#setScoreBoard#0;class#Start#0" expanded="false" />
+            <element signature="docComment;method#setGameBoard#0;class#Start#0" expanded="false" />
+            <element signature="method#setGameBoard#0;class#Start#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#disabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#percentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#numBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#possibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#virtualGrid#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7321#7322#0" expanded="false" />
+            <element signature="e#7353#7354#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7482#7483#0" expanded="false" />
+            <element signature="e#7514#7515#0" expanded="false" />
+            <element signature="docComment;method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getPercentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9693#9694#0" expanded="false" />
+            <element signature="e#9728#9729#0" expanded="false" />
+            <element signature="docComment;method#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9871#9872#0" expanded="false" />
+            <element signature="e#9905#9906#0" expanded="false" />
+            <element signature="docComment;method#getNumBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10043#10044#0" expanded="false" />
+            <element signature="e#10074#10075#0" expanded="false" />
+            <element signature="docComment;method#getPossibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10249#10250#0" expanded="false" />
+            <element signature="e#10285#10286#0" expanded="false" />
+            <element signature="docComment;method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="class#10609:11421" expanded="false" />
+            <element signature="method#handle#0;class#10609:11421" expanded="false" />
+            <element signature="class#11513:12416" expanded="false" />
+            <element signature="method#handle#0;class#11513:12416" expanded="false" />
+            <element signature="docComment;method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#13408#13409#0" expanded="false" />
+            <element signature="e#13454#13455#0" expanded="false" />
+            <element signature="docComment;method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getDisabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#15296#15297#0" expanded="false" />
+            <element signature="e#15336#15337#0" expanded="false" />
+            <element signature="docComment;method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;field#row#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#col#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#neighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#incNeighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getNeighboringBombs#0;class#Cell#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ScoreBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#time#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#startBtn#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerBottom#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeftLabel#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#getTime#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3075#3076#0" expanded="false" />
+            <element signature="e#3102#3103#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnAction#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3268#3269#0" expanded="false" />
+            <element signature="e#3307#3308#0" expanded="false" />
+            <element signature="docComment;method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3949#3950#0" expanded="false" />
+            <element signature="e#4028#4029#0" expanded="false" />
+            <element signature="docComment;method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4297#4298#0" expanded="false" />
+            <element signature="e#4334#4335#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnDisable#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4569#4570#0" expanded="false" />
+            <element signature="e#4615#4616#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameNodeStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3300">
+          <caret line="155" column="29" lean-forward="false" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#disabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#percentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#numBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#possibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#virtualGrid#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7321#7322#0" expanded="false" />
+            <element signature="e#7353#7354#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7482#7483#0" expanded="false" />
+            <element signature="e#7514#7515#0" expanded="false" />
+            <element signature="docComment;method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getPercentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9693#9694#0" expanded="false" />
+            <element signature="e#9728#9729#0" expanded="false" />
+            <element signature="docComment;method#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9871#9872#0" expanded="false" />
+            <element signature="e#9905#9906#0" expanded="false" />
+            <element signature="docComment;method#getNumBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10043#10044#0" expanded="false" />
+            <element signature="e#10074#10075#0" expanded="false" />
+            <element signature="docComment;method#getPossibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10249#10250#0" expanded="false" />
+            <element signature="e#10285#10286#0" expanded="false" />
+            <element signature="docComment;method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="class#10609:11421" expanded="false" />
+            <element signature="method#handle#0;class#10609:11421" expanded="false" />
+            <element signature="class#11513:12416" expanded="false" />
+            <element signature="method#handle#0;class#11513:12416" expanded="false" />
+            <element signature="docComment;method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#13408#13409#0" expanded="false" />
+            <element signature="e#13454#13455#0" expanded="false" />
+            <element signature="docComment;method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getDisabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#15296#15297#0" expanded="false" />
+            <element signature="e#15336#15337#0" expanded="false" />
+            <element signature="docComment;method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+          <folding>
+            <element signature="docComment;field#controller#0;class#Start#0" expanded="false" />
+            <element signature="docComment;field#gameBoard#0;class#Start#0" expanded="false" />
+            <element signature="docComment;field#scoreBoard#0;class#Start#0" expanded="false" />
+            <element signature="docComment;field#mainPane#0;class#Start#0" expanded="false" />
+            <element signature="docComment;method#Start#0;class#Start#0" expanded="false" />
+            <element signature="method#Start#0;class#Start#0" expanded="false" />
+            <element signature="docComment;method#start#0;class#Start#0" expanded="false" />
+            <element signature="e#1153#1188#0" expanded="false" />
+            <element signature="class#1590:2065" expanded="false" />
+            <element signature="method#handle#0;class#1590:2065" expanded="false" />
+            <element signature="docComment;method#setScoreBoard#0;class#Start#0" expanded="false" />
+            <element signature="method#setScoreBoard#0;class#Start#0" expanded="false" />
+            <element signature="docComment;method#setGameBoard#0;class#Start#0" expanded="false" />
+            <element signature="method#setGameBoard#0;class#Start#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="49" column="28" lean-forward="false" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+          <folding>
+            <element signature="docComment;field#row#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#col#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#neighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#incNeighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getNeighboringBombs#0;class#Cell#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ScoreBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#time#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#startBtn#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerBottom#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeftLabel#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#getTime#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3075#3076#0" expanded="false" />
+            <element signature="e#3102#3103#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnAction#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3268#3269#0" expanded="false" />
+            <element signature="e#3307#3308#0" expanded="false" />
+            <element signature="docComment;method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3949#3950#0" expanded="false" />
+            <element signature="e#4028#4029#0" expanded="false" />
+            <element signature="docComment;method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4297#4298#0" expanded="false" />
+            <element signature="e#4334#4335#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnDisable#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4569#4570#0" expanded="false" />
+            <element signature="e#4615#4616#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameNodeStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#disabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#percentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#numBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#possibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#virtualGrid#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7321#7322#0" expanded="false" />
+            <element signature="e#7353#7354#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7482#7483#0" expanded="false" />
+            <element signature="e#7514#7515#0" expanded="false" />
+            <element signature="docComment;method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getPercentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9693#9694#0" expanded="false" />
+            <element signature="e#9728#9729#0" expanded="false" />
+            <element signature="docComment;method#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9871#9872#0" expanded="false" />
+            <element signature="e#9905#9906#0" expanded="false" />
+            <element signature="docComment;method#getNumBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10043#10044#0" expanded="false" />
+            <element signature="e#10074#10075#0" expanded="false" />
+            <element signature="docComment;method#getPossibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10249#10250#0" expanded="false" />
+            <element signature="e#10285#10286#0" expanded="false" />
+            <element signature="docComment;method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="class#10609:11421" expanded="false" />
+            <element signature="method#handle#0;class#10609:11421" expanded="false" />
+            <element signature="class#11513:12416" expanded="false" />
+            <element signature="method#handle#0;class#11513:12416" expanded="false" />
+            <element signature="docComment;method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#13408#13409#0" expanded="false" />
+            <element signature="e#13454#13455#0" expanded="false" />
+            <element signature="docComment;method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getDisabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#15296#15297#0" expanded="false" />
+            <element signature="e#15336#15337#0" expanded="false" />
+            <element signature="docComment;method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="docComment;field#row#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#col#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#neighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#incNeighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getNeighboringBombs#0;class#Cell#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ScoreBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#time#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#startBtn#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerBottom#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeftLabel#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#getTime#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3075#3076#0" expanded="false" />
+            <element signature="e#3102#3103#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnAction#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3268#3269#0" expanded="false" />
+            <element signature="e#3307#3308#0" expanded="false" />
+            <element signature="docComment;method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3949#3950#0" expanded="false" />
+            <element signature="e#4028#4029#0" expanded="false" />
+            <element signature="docComment;method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4297#4298#0" expanded="false" />
+            <element signature="e#4334#4335#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnDisable#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4569#4570#0" expanded="false" />
+            <element signature="e#4615#4616#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameNodeStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#disabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#percentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#numBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#possibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#virtualGrid#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7321#7322#0" expanded="false" />
+            <element signature="e#7353#7354#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7482#7483#0" expanded="false" />
+            <element signature="e#7514#7515#0" expanded="false" />
+            <element signature="docComment;method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getPercentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9693#9694#0" expanded="false" />
+            <element signature="e#9728#9729#0" expanded="false" />
+            <element signature="docComment;method#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9871#9872#0" expanded="false" />
+            <element signature="e#9905#9906#0" expanded="false" />
+            <element signature="docComment;method#getNumBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10043#10044#0" expanded="false" />
+            <element signature="e#10074#10075#0" expanded="false" />
+            <element signature="docComment;method#getPossibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10249#10250#0" expanded="false" />
+            <element signature="e#10285#10286#0" expanded="false" />
+            <element signature="docComment;method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="class#10609:11421" expanded="false" />
+            <element signature="method#handle#0;class#10609:11421" expanded="false" />
+            <element signature="class#11513:12416" expanded="false" />
+            <element signature="method#handle#0;class#11513:12416" expanded="false" />
+            <element signature="docComment;method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#13408#13409#0" expanded="false" />
+            <element signature="e#13454#13455#0" expanded="false" />
+            <element signature="docComment;method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getDisabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#15296#15297#0" expanded="false" />
+            <element signature="e#15336#15337#0" expanded="false" />
+            <element signature="docComment;method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;field#row#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#col#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#neighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#incNeighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getNeighboringBombs#0;class#Cell#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ScoreBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#time#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#startBtn#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerBottom#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeftLabel#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#getTime#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3075#3076#0" expanded="false" />
+            <element signature="e#3102#3103#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnAction#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3268#3269#0" expanded="false" />
+            <element signature="e#3307#3308#0" expanded="false" />
+            <element signature="docComment;method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3949#3950#0" expanded="false" />
+            <element signature="e#4028#4029#0" expanded="false" />
+            <element signature="docComment;method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4297#4298#0" expanded="false" />
+            <element signature="e#4334#4335#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnDisable#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4569#4570#0" expanded="false" />
+            <element signature="e#4615#4616#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameNodeStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#disabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#percentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#numBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#possibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#virtualGrid#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7321#7322#0" expanded="false" />
+            <element signature="e#7353#7354#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7482#7483#0" expanded="false" />
+            <element signature="e#7514#7515#0" expanded="false" />
+            <element signature="docComment;method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getPercentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9693#9694#0" expanded="false" />
+            <element signature="e#9728#9729#0" expanded="false" />
+            <element signature="docComment;method#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9871#9872#0" expanded="false" />
+            <element signature="e#9905#9906#0" expanded="false" />
+            <element signature="docComment;method#getNumBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10043#10044#0" expanded="false" />
+            <element signature="e#10074#10075#0" expanded="false" />
+            <element signature="docComment;method#getPossibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10249#10250#0" expanded="false" />
+            <element signature="e#10285#10286#0" expanded="false" />
+            <element signature="docComment;method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="class#10609:11421" expanded="false" />
+            <element signature="method#handle#0;class#10609:11421" expanded="false" />
+            <element signature="class#11513:12416" expanded="false" />
+            <element signature="method#handle#0;class#11513:12416" expanded="false" />
+            <element signature="docComment;method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#13408#13409#0" expanded="false" />
+            <element signature="e#13454#13455#0" expanded="false" />
+            <element signature="docComment;method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getDisabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#15296#15297#0" expanded="false" />
+            <element signature="e#15336#15337#0" expanded="false" />
+            <element signature="docComment;method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;field#row#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#col#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#neighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#incNeighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getNeighboringBombs#0;class#Cell#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ScoreBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#time#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#startBtn#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerBottom#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeftLabel#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#getTime#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3075#3076#0" expanded="false" />
+            <element signature="e#3102#3103#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnAction#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3268#3269#0" expanded="false" />
+            <element signature="e#3307#3308#0" expanded="false" />
+            <element signature="docComment;method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3949#3950#0" expanded="false" />
+            <element signature="e#4028#4029#0" expanded="false" />
+            <element signature="docComment;method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4297#4298#0" expanded="false" />
+            <element signature="e#4334#4335#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnDisable#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4569#4570#0" expanded="false" />
+            <element signature="e#4615#4616#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameNodeStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#disabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#percentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#numBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#possibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#virtualGrid#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7321#7322#0" expanded="false" />
+            <element signature="e#7353#7354#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7482#7483#0" expanded="false" />
+            <element signature="e#7514#7515#0" expanded="false" />
+            <element signature="docComment;method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getPercentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9693#9694#0" expanded="false" />
+            <element signature="e#9728#9729#0" expanded="false" />
+            <element signature="docComment;method#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9871#9872#0" expanded="false" />
+            <element signature="e#9905#9906#0" expanded="false" />
+            <element signature="docComment;method#getNumBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10043#10044#0" expanded="false" />
+            <element signature="e#10074#10075#0" expanded="false" />
+            <element signature="docComment;method#getPossibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10249#10250#0" expanded="false" />
+            <element signature="e#10285#10286#0" expanded="false" />
+            <element signature="docComment;method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="class#10609:11421" expanded="false" />
+            <element signature="method#handle#0;class#10609:11421" expanded="false" />
+            <element signature="class#11513:12416" expanded="false" />
+            <element signature="method#handle#0;class#11513:12416" expanded="false" />
+            <element signature="docComment;method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#13408#13409#0" expanded="false" />
+            <element signature="e#13454#13455#0" expanded="false" />
+            <element signature="docComment;method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getDisabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#15296#15297#0" expanded="false" />
+            <element signature="e#15336#15337#0" expanded="false" />
+            <element signature="docComment;method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ScoreBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="58" column="41" lean-forward="false" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#time#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#startBtn#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerBottom#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeftLabel#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#getTime#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3075#3076#0" expanded="false" />
+            <element signature="e#3102#3103#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnAction#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3268#3269#0" expanded="false" />
+            <element signature="e#3307#3308#0" expanded="false" />
+            <element signature="docComment;method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3949#3950#0" expanded="false" />
+            <element signature="e#4028#4029#0" expanded="false" />
+            <element signature="docComment;method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4297#4298#0" expanded="false" />
+            <element signature="e#4334#4335#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnDisable#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4569#4570#0" expanded="false" />
+            <element signature="e#4615#4616#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameNodeStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#disabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#percentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#numBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#possibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#virtualGrid#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7321#7322#0" expanded="false" />
+            <element signature="e#7353#7354#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7482#7483#0" expanded="false" />
+            <element signature="e#7514#7515#0" expanded="false" />
+            <element signature="docComment;method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getPercentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9693#9694#0" expanded="false" />
+            <element signature="e#9728#9729#0" expanded="false" />
+            <element signature="docComment;method#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9871#9872#0" expanded="false" />
+            <element signature="e#9905#9906#0" expanded="false" />
+            <element signature="docComment;method#getNumBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10043#10044#0" expanded="false" />
+            <element signature="e#10074#10075#0" expanded="false" />
+            <element signature="docComment;method#getPossibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10249#10250#0" expanded="false" />
+            <element signature="e#10285#10286#0" expanded="false" />
+            <element signature="docComment;method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="class#10609:11421" expanded="false" />
+            <element signature="method#handle#0;class#10609:11421" expanded="false" />
+            <element signature="class#11513:12416" expanded="false" />
+            <element signature="method#handle#0;class#11513:12416" expanded="false" />
+            <element signature="docComment;method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#13408#13409#0" expanded="false" />
+            <element signature="e#13454#13455#0" expanded="false" />
+            <element signature="docComment;method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getDisabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#15296#15297#0" expanded="false" />
+            <element signature="e#15336#15337#0" expanded="false" />
+            <element signature="docComment;method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ScoreBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="58" column="41" lean-forward="false" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#time#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#startBtn#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerBottom#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeftLabel#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#getTime#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3075#3076#0" expanded="false" />
+            <element signature="e#3102#3103#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnAction#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3268#3269#0" expanded="false" />
+            <element signature="e#3307#3308#0" expanded="false" />
+            <element signature="docComment;method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3949#3950#0" expanded="false" />
+            <element signature="e#4028#4029#0" expanded="false" />
+            <element signature="docComment;method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4297#4298#0" expanded="false" />
+            <element signature="e#4334#4335#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnDisable#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4569#4570#0" expanded="false" />
+            <element signature="e#4615#4616#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameNodeStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameBoardStyles.css" />
+    <entry file="file://$PROJECT_DIR$/src/view/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="docComment;field#row#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#col#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;field#neighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="method#Cell#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="method#setGridCoords#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getRow#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getCol#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#incNeighboringBombs#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#isBomb#0;class#Cell#0" expanded="false" />
+            <element signature="docComment;method#getNeighboringBombs#0;class#Cell#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameNodeStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#41#164#0" expanded="false" />
+            <element signature="e#216#276#0" expanded="false" />
+            <element signature="e#325#360#0" expanded="false" />
+            <element signature="e#384#418#0" expanded="false" />
+            <element signature="e#449#485#0" expanded="false" />
+            <element signature="e#516#553#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/ScoreBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="143" column="29" lean-forward="false" selection-start-line="143" selection-start-column="29" selection-end-line="143" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#time#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#startBtn#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerBottom#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsLeftLabel#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;field#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#ScoreBoard#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#getTime#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3075#3076#0" expanded="false" />
+            <element signature="e#3102#3103#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnAction#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3268#3269#0" expanded="false" />
+            <element signature="e#3307#3308#0" expanded="false" />
+            <element signature="docComment;method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateBombsLeft#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#updateTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#startTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#3949#3950#0" expanded="false" />
+            <element signature="e#4028#4029#0" expanded="false" />
+            <element signature="docComment;method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="method#stopTimer#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="docComment;method#timerIsStopped#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4297#4298#0" expanded="false" />
+            <element signature="e#4334#4335#0" expanded="false" />
+            <element signature="docComment;method#setStartBtnDisable#0;class#ScoreBoard#0" expanded="false" />
+            <element signature="e#4569#4570#0" expanded="false" />
+            <element signature="e#4615#4616#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#gameBoard#0;class#Controller#0" expanded="false" />
+            <element signature="docComment;field#scoreBoard#0;class#Controller#0" expanded="false" />
+            <element signature="docComment;field#start#0;class#Controller#0" expanded="false" />
+            <element signature="docComment;method#updatePossibleBombs#0;class#Controller#0" expanded="false" />
+            <element signature="method#updatePossibleBombs#0;class#Controller#0" expanded="false" />
+            <element signature="docComment;method#checkForWin#0;class#Controller#0" expanded="false" />
+            <element signature="method#checkForWin#0;class#Controller#0" expanded="false" />
+            <element signature="docComment;method#endGame#0;class#Controller#0" expanded="false" />
+            <element signature="method#endGame#0;class#Controller#0" expanded="false" />
+            <element signature="docComment;method#setGameBoard#0;class#Controller#0" expanded="false" />
+            <element signature="e#2779#2780#0" expanded="false" />
+            <element signature="e#2821#2822#0" expanded="false" />
+            <element signature="docComment;method#setScoreBoard#0;class#Controller#0" expanded="false" />
+            <element signature="e#3001#3002#0" expanded="false" />
+            <element signature="e#3045#3046#0" expanded="false" />
+            <element signature="docComment;method#setStart#0;class#Controller#0" expanded="false" />
+            <element signature="e#3223#3224#0" expanded="false" />
+            <element signature="e#3257#3258#0" expanded="false" />
+            <element signature="docComment;method#Controller#0;class#Controller#0" expanded="false" />
+            <element signature="method#Controller#0;class#Controller#0" expanded="false" />
+            <element signature="docComment;method#restartGame#0;class#Controller#0" expanded="false" />
+            <element signature="method#restartGame#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding>
+            <element signature="docComment;field#controller#0;class#Start#0" expanded="false" />
+            <element signature="docComment;field#gameBoard#0;class#Start#0" expanded="false" />
+            <element signature="docComment;field#scoreBoard#0;class#Start#0" expanded="false" />
+            <element signature="docComment;field#mainPane#0;class#Start#0" expanded="false" />
+            <element signature="docComment;method#Start#0;class#Start#0" expanded="false" />
+            <element signature="method#Start#0;class#Start#0" expanded="false" />
+            <element signature="docComment;method#start#0;class#Start#0" expanded="false" />
+            <element signature="e#1153#1188#0" expanded="false" />
+            <element signature="class#1590:2065" expanded="false" />
+            <element signature="method#handle#0;class#1590:2065" expanded="false" />
+            <element signature="docComment;method#setScoreBoard#0;class#Start#0" expanded="false" />
+            <element signature="method#setScoreBoard#0;class#Start#0" expanded="false" />
+            <element signature="docComment;method#setGameBoard#0;class#Start#0" expanded="false" />
+            <element signature="method#setGameBoard#0;class#Start#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/GameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="101" column="62" lean-forward="false" selection-start-line="101" selection-start-column="62" selection-end-line="101" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;field#controller#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#disabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#gridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#percentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#numBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#possibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#virtualGrid#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;field#bombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#makeRows#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameBoardConstraints#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeX#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7321#7322#0" expanded="false" />
+            <element signature="e#7353#7354#0" expanded="false" />
+            <element signature="docComment;method#getGridSizeY#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#7482#7483#0" expanded="false" />
+            <element signature="e#7514#7515#0" expanded="false" />
+            <element signature="docComment;method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#incBombsTouching#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#updateNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getPercentBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9693#9694#0" expanded="false" />
+            <element signature="e#9728#9729#0" expanded="false" />
+            <element signature="docComment;method#isClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#9871#9872#0" expanded="false" />
+            <element signature="e#9905#9906#0" expanded="false" />
+            <element signature="docComment;method#getNumBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10043#10044#0" expanded="false" />
+            <element signature="e#10074#10075#0" expanded="false" />
+            <element signature="docComment;method#getPossibleBombs#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#10249#10250#0" expanded="false" />
+            <element signature="e#10285#10286#0" expanded="false" />
+            <element signature="docComment;method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#setGameNodeHandler#0;class#GameBoard#0" expanded="false" />
+            <element signature="class#10609:11421" expanded="false" />
+            <element signature="method#handle#0;class#10609:11421" expanded="false" />
+            <element signature="class#11513:12416" expanded="false" />
+            <element signature="method#handle#0;class#11513:12416" expanded="false" />
+            <element signature="docComment;method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markNode#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#setClickable#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#13408#13409#0" expanded="false" />
+            <element signature="e#13454#13455#0" expanded="false" />
+            <element signature="docComment;method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#openNeighbors#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#accessIsInBounds#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#getDisabledGameNodes#0;class#GameBoard#0" expanded="false" />
+            <element signature="e#15296#15297#0" expanded="false" />
+            <element signature="e#15336#15337#0" expanded="false" />
+            <element signature="docComment;method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#disableAllBombsAndMarkedCells#0;class#GameBoard#0" expanded="false" />
+            <element signature="docComment;method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+            <element signature="method#markBombsOnWin#0;class#GameBoard#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readMe/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Assn_Submission</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android API 24 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Kvarfordt-Tanner-Assn8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19958848" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
